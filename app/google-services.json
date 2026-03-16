@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "200328496724",
+    "project_id": "clubs-app-db26b",
+    "storage_bucket": "clubs-app-db26b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200328496724:android:2d06298344d377e8f18fc1",
+        "android_client_info": {
+          "package_name": "com.app.clb_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUbK3A1jAszeCXbOeHxo2XeluwH7GAKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200328496724:android:09c248cbd2e10454f18fc1",
+        "android_client_info": {
+          "package_name": "com.app.club_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUbK3A1jAszeCXbOeHxo2XeluwH7GAKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200328496724:android:e5fdc30fcf907597f18fc1",
+        "android_client_info": {
+          "package_name": "com.example.club_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUbK3A1jAszeCXbOeHxo2XeluwH7GAKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
