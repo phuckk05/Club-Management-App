@@ -2,4 +2,29 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#3B5BDB</color>
+    <color name="primary_light">#748FFC</color>
+    <color name="primary_dark">#2F4AC0</color>
+    <color name="bg_screen">#F8F9FA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_bottom_nav">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="card_stroke">#E5E7EB</color>
+    <color name="badge_hot_bg">#FF6B6B</color>
+    <color name="badge_hot_text">#FFFFFF</color>
+    <color name="badge_upcoming_bg">#EEF2FF</color>
+    <color name="badge_upcoming_text">#3B5BDB</color>
+    <color name="badge_attending_bg">#ECFDF5</color>
+    <color name="badge_attending_text">#059669</color>
+    <color name="badge_finished_bg">#F3F4F6</color>
+    <color name="badge_finished_text">#6B7280</color>
+    <color name="tab_selected_bg">#3B5BDB</color>
+    <color name="tab_selected_text">#FFFFFF</color>
+    <color name="tab_unselected_bg">#F3F4F6</color>
+    <color name="tab_unselected_text">#6B7280</color>
+    <color name="dot_separator">#9CA3AF</color>
+    <color name="icon_meta">#9CA3AF</color>
 </resources>

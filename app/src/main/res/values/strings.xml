@@ -1,3 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">club_app</string>
+    <string name="app_name">Club App</string>
+
+    <!-- Tiêu đề màn hình -->
+    <string name="title_activity_management">Quản lý Hoạt động</string>
+
+    <!-- Tiêu đề section -->
+    <string name="section_featured_events">Sự kiện nổi bật</string>
+    <string name="section_upcoming_events">Sự kiện sắp tới</string>
+
+    <!-- Tab lọc -->
+    <string name="tab_all">Tất cả</string>
+    <string name="tab_upcoming">Sắp diễn ra</string>
+    <string name="tab_attending">Đang tham gia</string>
+
+    <!-- Badge -->
+    <string name="label_hot">HOT</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="desc_user_avatar">Ảnh đại diện người dùng</string>
+    <string name="desc_notification_bell">Thông báo</string>
+    <string name="desc_fab_add_event">Thêm sự kiện mới</string>
+    <string name="desc_event_image">Ảnh sự kiện</string>
+    <string name="desc_event_thumbnail">Ảnh thu nhỏ sự kiện</string>
+
+    <!-- Bottom nav labels -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_events">Câu lạc bộ</string>
+    <string name="nav_notifications">Thông báo</string>
+    <string name="nav_profile">Cá nhân</string>
 </resources>

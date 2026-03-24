@@ -1,9 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Club_app" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Theme chính của ứng dụng -->
+    <style name="Base.Theme.Club_app" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="android:windowBackground">@color/bg_screen</item>
     </style>
 
     <style name="Theme.Club_app" parent="Base.Theme.Club_app" />
+
+    <!-- ===== TextAppearance styles ===== -->
+
+    <!-- Tiêu đề màn hình (header) -->
+    <style name="TextAppearance.App.ScreenTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="fontFamily">F</item>-->
+    </style>
+
+    <!-- Tiêu đề section (Sự kiện nổi bật / Sắp tới) -->
+    <style name="TextAppearance.App.SectionHeader" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Tiêu đề sự kiện trong card -->
+    <style name="TextAppearance.App.EventTitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Thông tin meta: ngày, địa điểm -->
+    <style name="TextAppearance.App.EventMeta" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Loại sự kiện (hội thảo, câu lạc bộ...) -->
+    <style name="TextAppearance.App.EventType" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Badge HOT trên card ngang -->
+    <style name="TextAppearance.App.HotBadge" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/badge_hot_text</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Badge trạng thái sự kiện (Sắp diễn ra / Đang tham gia / Đã kết thúc) -->
+    <style name="TextAppearance.App.BadgeStatus" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Tab đang chọn -->
+    <style name="TextAppearance.App.TabSelected" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/tab_selected_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Tab chưa chọn -->
+    <style name="TextAppearance.App.TabUnselected" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/tab_unselected_text</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
 </resources>
