@@ -29,4 +29,16 @@
     <string name="nav_events">Câu lạc bộ</string>
     <string name="nav_notifications">Thông báo</string>
     <string name="nav_profile">Cá nhân</string>
+
+    <string name="event_image_desc">Ảnh sự kiện</string>
+    <string name="back">Quay lại</string>
+    <string name="label_event_date">Ngày tổ chức</string>
+    <string name="label_event_location">Địa điểm</string>
+    <string name="btn_register">Đăng ký tham gia</string>
+    <string name="btn_view_detail">Xem chi tiết sự kiện</string>
+    <string name="btn_finished">Sự kiện đã kết thúc</string>
+    <string name="badge_hot">HOT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

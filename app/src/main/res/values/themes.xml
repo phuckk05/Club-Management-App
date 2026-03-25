@@ -2,7 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Theme chính của ứng dụng -->
-    <style name="Base.Theme.Club_app" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.Club_app" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorOnPrimary">@color/text_on_primary</item>
         <item name="android:windowBackground">@color/bg_screen</item>
@@ -72,4 +72,93 @@
         <item name="android:textSize">13sp</item>
     </style>
 
+    <style name="Theme.ClubApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- EventDetail activity — transparent status bar, fullscreen hero -->
+    <style name="Theme.ClubApp.EventDetail" parent="Theme.ClubApp">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- Badge: Event Status -->
+    <style name="Widget.ClubApp.Badge.Status">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@drawable/bg_badge_status</item>
+    </style>
+
+    <style name="Widget.ClubApp.Badge" parent="android:Widget" />
+    <style name="Widget.ClubApp.Tag"   parent="android:Widget" />
+    <style name="Widget.ClubApp.Text"  parent="android:Widget" />
+    <style name="Widget.ClubApp.Button" parent="android:Widget" />
+
+    <!-- Badge: HOT -->
+    <style name="Widget.ClubApp.Badge.Hot">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/bg_badge_hot</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- Event type tag -->
+    <style name="Widget.ClubApp.Tag.EventType">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/bg_tag_primary</item>
+    </style>
+
+    <!-- Event title -->
+    <style name="Widget.ClubApp.Text.EventTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <!-- Info label (small muted, e.g. "Ngày tổ chức") -->
+    <style name="Widget.ClubApp.Text.InfoLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <!-- Info value (bold, e.g. actual date string) -->
+    <style name="Widget.ClubApp.Text.InfoValue">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <!-- Primary action button -->
+    <style name="Widget.ClubApp.Button.Primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
 </resources>

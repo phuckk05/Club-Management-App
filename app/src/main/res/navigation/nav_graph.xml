@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.club_app.activities.fragments.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/clubFragment"
+        android:name="com.app.club_app.activities.fragments.ClubFragment"
+        android:label="Club" />
+
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.app.club_app.activities.fragments.NotificationFragment"
+        android:label="Notification" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.club_app.activities.fragments.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>

@@ -12,13 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Club_app">
         <activity
+            android:name=".activities.EventDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.HomeActivity"
-            android:exported="true">
+            android:exported="false"/>
+        <activity
+            android:name=".activities.BottomNavigationActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
